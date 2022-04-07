@@ -1,0 +1,5 @@
+# Copyright (c) 2022 Traxon technologies
+
+config BOARD_EV_BM833
+    bool "NRF52833 DK NRF52833"
+    depends on SOC_NRF52833_QIAA

@@ -1,0 +1,11 @@
+# Copyright (c) 2022 Traxon technologies
+
+if BOARD_EV_BM833
+
+config BOARD
+    default "ev_bm833"
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_EV_BM833
