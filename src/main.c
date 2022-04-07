@@ -25,9 +25,8 @@ void main(void)
 	const struct device *flash_dev;
 	int rc;
 
-	printf("--------------------------------------\n");
-
-	printf("\n" FLASH_NAME " SPI flash testing\n");
+	printf("\n------------------8<-------------------\n");
+	printf(FLASH_NAME " SPI flash testing\n");
 
 	flash_dev = device_get_binding(FLASH_DEVICE);
 
@@ -84,4 +83,5 @@ void main(void)
 			++wp;
 		}
 	}
+	printf("------------------>8-------------------\n");
 }
