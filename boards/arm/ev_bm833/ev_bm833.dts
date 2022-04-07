@@ -42,7 +42,7 @@
     rx-pull-up;
 };
 
-&spi3 {
+&spi2 {
     compatible = "nordic,nrf-spim";
     status = "okay";
     sck-pin = <19>;
